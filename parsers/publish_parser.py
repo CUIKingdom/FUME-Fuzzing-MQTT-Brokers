@@ -2,10 +2,10 @@ from protocol_parser import ProtocolParser as Parser
 import sys
 sys.path.append("generators")
 
-from connect import Connect
-from publish import Publish
+from generators.connect import Connect
+from generators.publish import Publish
 
-from packet import sendToBroker
+from generators.packet import sendToBroker
 
 import random
 
